@@ -7,18 +7,12 @@ A custom UNIX-like shell implemented in C to explore low-level system programmin
 
 this repository is a collection of personal shell scripts organized for reuse and modularity. it focuses on simple command-line tools, configuration handling, and lightweight scripting workflows. ()
 
-## structure
-
-* `app/` – main executable scripts or entry points
-* `lib/` – reusable functions and helper scripts
-* `config/` – configuration files and environment settings
-
 ## features
 
 * modular shell script organization
 * reusable utility functions
 * simple configuration management
-* lightweight and dependency-free approach
+* unix bash like scripts
 
 ## requirements
 
@@ -32,18 +26,8 @@ clone the repository and run scripts directly:
 ```bash
 git clone https://github.com/0xhasann/shell.git
 cd shell
-chmod +x app/*
-./app/<script-name>.sh
+gcc src/*.c -o main -lreadline && ./main 
 ```
+notes
 
-## customization
-
-modify files inside `config/` to adjust behavior. reusable logic can be extended via `lib/`.
-
-## notes
-
-this project is intended for personal use and experimentation. structure and scripts may evolve without strict versioning.
-
-## license
-
-mit
+this project is intended for personal use and experimentation. structure and scripts may change over time.
