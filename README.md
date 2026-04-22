@@ -1,6 +1,7 @@
 # shell
 
-a minimal shell scripting project containing custom scripts and utilities for command line automation and experimentation.
+A custom UNIX-like shell implemented in C to explore low-level system programming concepts such as process creation, piping, and I/O redirection.
+
 
 ## overview
 
